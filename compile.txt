@@ -1,0 +1,5 @@
+g++ -o cameraStreaming cameraStreaming.cpp $(pkg-config --cflags --libs opencv4) -I/usr/local/include -L/usr/local/lib -lcivetweb -lpthread
+
+
+# for running the program
+./cameraStreaming
